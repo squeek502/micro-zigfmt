@@ -1,0 +1,14 @@
+[{
+  "Name": "zigfmt",
+  "Description": "zig fmt on save and zig fmt --check linter support",
+  "Tags": ["zig", "ziglang"],
+  "Website": "https://github.com/squeek502/micro-zigfmt",
+  "Versions": [
+    {
+      "Version": "0.1.0",
+      "Require": {
+        "micro": ">=2.0.0"
+      }
+    },
+  ]
+}]
