@@ -13,6 +13,12 @@ for [Zig](https://github.com/ziglang/zig) files.
 Using the plugin manager:
 
 ```
+micro -plugin install zigfmt
+```
+
+Or from within micro (must restart micro afterwards for the plugin to be loaded):
+
+```
 > plugin install zigfmt
 ```
 
