@@ -6,6 +6,8 @@ Plugin for the [micro editor](https://github.com/zyedidia/micro) that provides s
 - `zig fmt` on save
 - `zig fmt --check` integration with the official linter plugin
 
+for [Zig](https://github.com/ziglang/zig) files.
+
 ## Installation
 
 Install by cloning this into your plug directory:
