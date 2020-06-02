@@ -10,7 +10,13 @@ for [Zig](https://github.com/ziglang/zig) files.
 
 ## Installation
 
-Install by cloning this into your plug directory:
+Using the plugin manager:
+
+```
+> plugin install zigfmt
+```
+
+Or manually install by cloning this repo as `zigfmt` into your `plug` directory:
 
 ```
 git clone https://github.com/squeek502/micro-zigfmt ~/.config/micro/plug/zigfmt
