@@ -27,9 +27,11 @@ function init()
   config.MakeCommand(COMMAND_NAME, zigfmt, config.NoComplete)
   config.AddRuntimeFile(PLUGIN_NAME, config.RTHelp, "help/zigfmt.md")
 
-  linter.makeLinter(LINTER_NAME, "zig", "zig", {"fmt", "--check", "%f"}, ERROR_PATTERN, {}, false, false, 0, 0, function(buf)
-    return buf.Settings[LINTER_OPTION]
-  end)
+  if linter then
+    linter.makeLinter(LINTER_NAME, "zig", "zig", {"fmt", "--check", "%f"}, ERROR_PATTERN, {}, false, false, 0, 0, function(buf)
+      return buf.Settings[LINTER_OPTION]
+    end)
+  end
 end
 
 function onSave(bp)
